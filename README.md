@@ -1,2 +1,2 @@
 # WordPress
-WordPress的一些资源存放仓库
+我的小型Wp资源仓库
