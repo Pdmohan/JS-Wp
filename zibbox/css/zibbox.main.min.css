@@ -1,0 +1,268 @@
+/****************************************************************************  
+ * @Author: 陌寒
+ * @Date: 2025-08-31 20:47:47
+ * @LastEditTime: 2025-08-31 20:47:48
+ * @Description: ZibBox 子主题，为 WordPress 添加灵动之美，让网页别具韵味！
+ * @Email: 7083266@qq.com
+ * @Remind: 有任何问题请联系主题作者,希望大家在使用的途中遵守我们的相关约定，也呼吁每一位子比正版用户，使用正版 拒绝盗版，如有盗版 也绝不售卖！
+ * @Copyright (c) 2025 by 郑州汇聚云网络科技有限公司, All Rights Reserved.
+ ****************************************************************************/
+
+.zibbox-b-gray,
+.zibbox-b-theme,
+.zibbox-b-red,
+.zibbox-b-yellow,
+.zibbox-b-blue,
+.zibbox-b-blue-2,
+.zibbox-b-cyan,
+.zibbox-b-green,
+.zibbox-b-purple,
+.zibbox-jb-red,
+.zibbox-jb-pink,
+.zibbox-jb-yellow,
+.zibbox-jb-blue,
+.zibbox-jb-cyan,
+.zibbox-jb-green,
+.zibbox-jb-purple,
+.zibbox-jb-vip1,
+.zibbox-dy-lz,
+.zibbox-dy-fl,
+.zibbox-dy-zl,
+.zibbox-dy-zh,
+.zibbox-dy-ch,
+.zibbox-dy-hl,
+.zibbox-dy-purple,
+.zibbox-dy-pink,
+.zibbox-dy-pinkblue,
+.zibbox-dy-icepink,
+.zibbox-dy-softpink,
+.zibbox-jb-vip2 {
+    color: var(--this-color);
+    background: var(--this-bg);
+    --this-color: #fff;
+}
+
+.zibbox-jb-red,
+.zibbox-jb-pink,
+.zibbox-jb-yellow,
+.zibbox-jb-blue,
+.zibbox-jb-cyan,
+.zibbox-jb-green,
+.zibbox-jb-purple,
+.zibbox-jb-vip1,
+.zibbox-jb-vip2 {
+    border: none;
+}
+
+.zibbox-b-theme {
+    --this-bg: var(--focus-color);
+}
+
+.zibbox-b-gray {
+    --this-bg: #818b95;
+}
+
+.zibbox-b-red {
+    --this-bg: #ff5473;
+}
+
+.zibbox-b-yellow {
+    --this-bg: #ff6f06;
+}
+
+.zibbox-b-cyan {
+    --this-bg: #08c4c1;
+}
+
+.zibbox-b-blue {
+    --this-bg: #2997f7;
+}
+
+.zibbox-b-blue-2 {
+    --this-bg: #5c7cff;
+}
+
+.zibbox-b-green {
+    --this-bg: #12b928;
+}
+
+.zibbox-b-purple {
+    --this-bg: #d448f5;
+}
+
+.zibbox-c-theme,
+.zibbox-c-gray,
+.zibbox-c-white,
+.zibbox-c-red,
+.zibbox-c-red-2,
+.zibbox-c-yellow,
+.zibbox-c-yellow-2,
+.zibbox-c-blue,
+.zibbox-c-blue-2,
+.zibbox-c-green,
+.zibbox-c-cyan,
+.zibbox-c-green-2,
+.zibbox-c-purple,
+.zibbox-c-purple-2 {
+    color: var(--this-color);
+}
+
+.zibbox-c-theme {
+    --this-color: var(--focus-color);
+    --this-bg: var(--focus-color-opacity1);
+}
+
+.zibbox-c-gray {
+    --this-color: #888;
+    --this-bg: rgba(136, 136, 136, 0.1);
+}
+
+.zibbox-c-white {
+    --this-color: #fff;
+    --this-bg: rgba(255, 255, 255, 0.1);
+}
+
+.zibbox-c-red {
+    --this-color: #ff5473;
+    --this-bg: rgba(255, 84, 115, 0.1);
+}
+
+.zibbox-c-red-2 {
+    --this-color: #d6064c;
+    --this-bg: rgba(194, 41, 46, 0.1);
+}
+
+.zibbox-c-yellow {
+    --this-color: #ff6f06;
+    --this-bg: rgba(255, 111, 6, 0.1);
+}
+
+.zibbox-c-yellow-2 {
+    --this-color: #c58516;
+    --this-bg: rgba(179, 103, 8, 0.1);
+}
+
+.zibbox-c-blue {
+    --this-color: #2997f7;
+    --this-bg: rgba(41, 151, 247, 0.1);
+}
+
+.zibbox-c-blue-2 {
+    --this-color: #5c7cff;
+    --this-bg: rgba(77, 130, 249, 0.1);
+}
+
+.zibbox-c-cyan {
+    --this-color: #04b9b6;
+    --this-bg: rgba(8, 196, 193, 0.1);
+}
+
+.zibbox-c-green {
+    --this-color: #18a52a;
+    --this-bg: rgba(18, 185, 40, 0.1);
+}
+
+.zibbox-c-green-2 {
+    --this-color: #6a933e;
+    --this-bg: rgba(72, 135, 24, 0.1);
+}
+
+.zibbox-c-purple {
+    --this-color: #e434e1;
+    --this-bg: rgba(213, 72, 245, 0.1);
+}
+
+.zibbox-c-purple-2 {
+    --this-color: #8e4aff;
+    --this-bg: rgba(154, 72, 245, 0.1);
+}
+
+
+.zibbox-jb-red {
+    --this-bg: linear-gradient(135deg, #fd7a64 10%, #fb2d2d 100%);
+}
+
+
+.zibbox-jb-pink {
+    --this-bg: linear-gradient(135deg, #ff5e7f 30%, #ff967e 100%);
+}
+
+
+.zibbox-jb-yellow {
+    --this-bg: linear-gradient(135deg, #f59f54 10%, #ff6922 100%);
+}
+
+
+.zibbox-jb-blue {
+    --this-bg: linear-gradient(135deg, #59c3fb 10%, #268df7 100%);
+}
+
+.zibbox-jb-cyan {
+    --this-bg: linear-gradient(140deg, #039ab3 10%, #58dbcf 90%);
+}
+
+
+.zibbox-jb-green {
+    --this-bg: linear-gradient(135deg, #60e464 10%, #5cb85b 100%);
+}
+
+
+.zibbox-jb-purple {
+    --this-bg: linear-gradient(135deg, #f98dfb 10%, #ea00f9 100%);
+}
+
+
+.zibbox-jb-vip1 {
+    --this-bg: linear-gradient(25deg, #eabe7b 10%, #f5e3c7 70%, #edc788 100%);
+    --this-color: #866127;
+}
+
+
+.zibbox-jb-vip2 {
+    --this-bg: linear-gradient(317deg, #4d4c4c 30%, #7b7b7b 70%, #5f5c5c 100%);
+    --this-color: #ddd;
+}
+
+.zibbox-dy-lz {
+    --this-bg: radial-gradient(circle at 10.6% 23.3%, rgb(186, 162, 252) 0%, rgb(176, 248, 242) 72.4%);
+}
+
+.zibbox-dy-fl {
+    --this-bg: linear-gradient(220.55deg, #FFADF7 0%, #B1FF96 100%);
+}
+
+.zibbox-dy-zl {
+    --this-bg: linear-gradient(103.3deg, rgb(252, 225, 208) 30%, rgb(255, 173, 214) 55.7%, rgb(162, 186, 245) 81.8%);
+}
+
+.zibbox-dy-zh {
+    --this-bg: linear-gradient(111.4deg, rgb(238, 113, 113) 1%, rgb(246, 215, 148) 58%);
+}
+
+.zibbox-dy-ch {
+    --this-bg: linear-gradient(102.7deg, rgb(253, 218, 255) 8.2%, rgb(223, 173, 252) 19.6%, rgb(173, 205, 252) 36.8%, rgb(173, 252, 244) 73.2%, rgb(202, 248, 208) 90.9%);
+}
+
+.zibbox-dy-hl {
+    --this-bg: linear-gradient(to right, #9fe1fa, #f4edc9);
+}
+
+.zibbox-dy-purple {
+    --this-bg: linear-gradient(135deg, #ed64fd 10%, #2da8fb 100%);
+}
+
+.zibbox-dy-pink {
+    --this-bg: linear-gradient(43deg, #ff6ac34a 0%, #ff82c1 46%, #ff6ac34a 100%);
+}
+
+.zibbox-dy-pinkblue {
+    --this-bg: linear-gradient(43deg, #ff6ac34a 0%, #82e1ff 46%, #ff6ac34a 100%);
+}
+
+.zibbox-dy-icepink {
+    --this-bg: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+}
+
+.zibbox-dy-softpink {
+    --this-bg: linear-gradient(220.55deg, #B7DCFF 0%, #FFA4F6 100%);
+}

@@ -1,0 +1,11 @@
+/****************************************************************************  
+ * @Author: 陌寒
+ * @Date: 2025-09-01 09:18:23
+ * @LastEditTime: 2025-09-01 09:18:31
+ * @Description: ZibBox 子主题，为 WordPress 添加灵动之美，让网页别具韵味！
+ * @Email: 7083266@qq.com
+ * @Remind: 有任何问题请联系主题作者,希望大家在使用的途中遵守我们的相关约定，也呼吁每一位子比正版用户，使用正版 拒绝盗版，如有盗版 也绝不售卖！
+ * @Copyright (c) 2025 by 郑州汇聚云网络科技有限公司, All Rights Reserved.
+ ****************************************************************************/
+
+@media screen and (max-width:800px){#name,#uid{display:none}}#leiji{text-align:end}#yaoqing{text-align:center}.sidebar .zib-widget.widget_money_ranklist_widget .money-box div ul.else-list li.else-item span#uid{display:none}.sidebar .zib-widget.widget_money_ranklist_widget .money-box div ul.else-list li.else-item span#name{display:none}.title{font-size:25px;color:var(--theme-color);line-height:16px;letter-spacing:1px;text-align:center;margin:auto;padding:0 0 24px 12px;background:url(https://wmimg.com/i/273/2024/01/65b1e15fb2df7.png) 100% 0/433px 126px no-repeat}a.top-icon.money-rank-bottom2{display:block;width:165px;height:53px;line-height:45px;background:url(https://wmimg.com/i/273/2024/01/65b1e144c9e06.png) no-repeat center/100%;font-size:18px;color:#fff;font-weight:600;margin:auto;z-index:999}.money-box{--green-1:#cff0fb;--green-2:#cbf4e4;background-image:linear-gradient(150deg,var(--green-1) 20%,var(--green-2) 40%);padding:0 12px 12px;border-radius:var(--main-radius)}.else-list{width:100%}.else-item{padding-bottom:12px;transition:all 1s;justify-content:center;align-items:center;display:flex}.gift-name{width:30%;font-size:14px;line-height:30px;text-align:justify;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:inline-block}.img-box{width:30px;height:30px;opacity:1;display:inline-block;background-color:#eee;border-radius:30px;margin-right:5px}.elseListbox{overflow:hidden;overflow-y:scroll;position:relative;height:300px;background:var(--main-bg-color);padding:12px;border-radius:var(--main-radius)}.elseListbox::-webkit-scrollbar{width:0}.zib-widget.widget_money_ranklist_widget{padding:0}
